@@ -4133,19 +4133,53 @@ a {
   display: none;
 }
 
-/* Page content */
-.content {
-  padding: 16px;
+.cid-tA2LXn8yz2 {
+  padding-top: 75px;
+  padding-bottom: 45px;
+  background-color: #ffffff;
+}
+.cid-tA2LXn8yz2 .mbr-text,
+.cid-tA2LXn8yz2 .mbr-section-btn {
+  color: #999999;
+}
+.cid-tA2LXn8yz2 ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 1.6rem;
+}
+.cid-tA2LXn8yz2 ul li::before {
+  content: "";
+  color: #0077ff;
+  font-weight: bold;
+  font-size: 2rem;
+  display: inline-block;
+  width: 1.5rem;
+  margin-left: -1.5rem;
+  transform: translateY(5px);
+}
+.cid-tA2LXn8yz2 li {
+  padding-bottom: 0rem;
+  transition: all 0.3s;
+}
+.cid-tA2LXn8yz2 li a {
+  font-weight: 600;
+}
+.cid-tA2LXn8yz2 li:hover {
+  color: #0077ff;
 }
 
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+.cid-rOMqzZYNMx {
+  padding-top: 45px;
+  padding-bottom: 30px;
+  background-color: #000000;
 }
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 60px;
+@media (min-width: 1500px) {
+  .cid-rOMqzZYNMx .container {
+    max-width: 1400px;
+  }
+}
+@media (max-width: 767px) {
+  .cid-rOMqzZYNMx .copyright {
+    margin-bottom: 1rem;
+  }
 }
