@@ -41,6 +41,23 @@ body {
 .display-7 > .mbr-iconfont {
   font-size: 2.24rem;
 }
+.display-8 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.8rem;
+  line-height: 0.8;
+}
+.display-8 > .mbr-iconfont {
+  font-size: 2.24rem;
+}
+.display-9 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color:#0095ff;
+}
+.display-9 > .mbr-iconfont {
+  font-size: 2.24rem;
+}
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
 /* 100vw - current viewport width */
@@ -4517,4 +4534,86 @@ a {
 .cid-tAk7B6uR76 .mbr-text,
 .cid-tAk7B6uR76 .mbr-section-btn {
   color: #333333;
+}
+.cid-tAk94GZRfD {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-color: #ffffff;
+}
+.cid-tAk94GZRfD .block {
+  width: 100%;
+  height: 550px;
+  display: block;
+}
+.cid-tAk94GZRfD img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cid-tAk94GZRfD .first img {
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+}
+.cid-tAk94GZRfD .last img {
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+@media (max-width: 992px) {
+  .cid-tAk94GZRfD .block {
+    height: 400px;
+  }
+}
+@media (max-width: 767px) {
+  .cid-tAk94GZRfD img {
+    padding-bottom: 1rem;
+  }
+  .cid-tAk94GZRfD .first img {
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+  }
+  .cid-tAk94GZRfD .last img {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    padding-bottom: 0;
+  }
+}
+#image03-g{
+  margin-top: 40px;
+}
+.cid-tAkMQeKJ0C {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-tAkMQeKJ0C .link-wrap {
+  width: 100%;
+}
+.cid-tAkMQeKJ0C .link {
+  display: inline-block;
+  position: relative;
+  width: fit-content;
+  padding: 0 1.4rem;
+}
+.cid-tAkMQeKJ0C .link:before {
+  position: absolute;
+  left: 0px;
+  top: 55%;
+  transform: translateY(-50%);
+  content: "\e908";
+  font-family: 'Moririse2' !important;
+  color: #0077ff;
+  font-size: 0.8rem;
+}
+.cid-tAkMQeKJ0C .link,
+.cid-tAkMQeKJ0C .link-wrap {
+  color: #555555;
+}
+.cid-tAkMQeKJ0C img {
+  width: 100%;
+}
+@media (max-width: 992px) {
+  .cid-tAkMQeKJ0C .card {
+    margin-bottom: 2rem!important;
+  }
 }
