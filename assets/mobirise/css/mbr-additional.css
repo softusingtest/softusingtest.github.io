@@ -2549,14 +2549,20 @@ a {
   text-align: center;
 }
 .cid-rOMrVNY2wf .google-map {
+
   height: 30rem;
-  position: relative;
+  width: 100%;
+  
+  /* position: relative; */
+  
 }
 .cid-rOMrVNY2wf .google-map iframe {
   height: 100%;
   width: 100%;
+  object-position: bottom right;
+  object-fit: cover;
 }
-.cid-rOMrVNY2wf .google-map [data-state-details] {
+/* .cid-rOMrVNY2wf .google-map [data-state-details] {
   color: #6b6763;
   font-family: Montserrat;
   height: 1.5em;
@@ -2573,7 +2579,7 @@ a {
 }
 .cid-rOMrVNY2wf .google-map[data-state="loading"] [data-state-details] {
   display: none;
-}
+} */
 .cid-rOMrW38i3d {
   padding-top: 60px;
   padding-bottom: 0px;
